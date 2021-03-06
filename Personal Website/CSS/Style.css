@@ -38,6 +38,7 @@ img{
 .main {
     grid-area: m;
     background-color: #e5e5dc;
+    padding: 5px 27px;
 
 }
 footer{
@@ -57,7 +58,7 @@ li a {
     display: block;
     color: #334259;
     text-align: left;
-    padding: 14px 16px;
+    padding: 0px 0px;
     text-decoration: none;
 }
 li a:hover {
