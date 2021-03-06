@@ -25,24 +25,24 @@ img{
 }
 .header{
     grid-area: h;
-    background-color: #3b4252;
+    background-color: #6e8783;
 
 }
 
 .side {
     grid-area: s;
-    background-color: #2e3440;
+    background-color: #6e8783;
 
 }
 
 .main {
     grid-area: m;
-    background-color: #d8dee9;
+    background-color: #e5e5dc;
 
 }
 footer{
     grid-area: f;
-    background-color: #3b4252;
+    background-color: #6e8783;
 }
 
 
@@ -52,4 +52,24 @@ footer{
     list-style-type: none;
     display: flex;
     flex-direction: row;
+}
+li a {
+    display: block;
+    color: #334259;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #edddd0;
+}
+ul a {
+    display: block;
+    color: #334259;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul a:hover {
+    background-color: #edddd0;
 }
