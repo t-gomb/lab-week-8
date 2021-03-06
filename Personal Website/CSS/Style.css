@@ -8,8 +8,8 @@
 img{
     height: 300px;
     width: 475px;
-    
 }
+
 .container {
 	display: grid;
     grid-template-rows: 5rem 1fr 5rem;
@@ -21,31 +21,28 @@ img{
     gap: 5px;
     width: 100vw;
     height: 100vh;
-
 }
+
 .header{
     grid-area: h;
     background-color: #6e8783;
-
 }
 
 .side {
     grid-area: s;
     background-color: #6e8783;
-
 }
 
 .main {
     grid-area: m;
     background-color: #e5e5dc;
     padding: 5px 27px;
-
 }
+
 footer{
     grid-area: f;
     background-color: #6e8783;
 }
-
 
 .top {
 
@@ -54,6 +51,7 @@ footer{
     display: flex;
     flex-direction: row;
 }
+
 li a {
     display: block;
     color: #334259;
@@ -61,9 +59,11 @@ li a {
     padding: 0px 0px;
     text-decoration: none;
 }
+
 li a:hover {
     background-color: #edddd0;
 }
+
 ul a {
     display: block;
     color: #334259;
@@ -71,6 +71,7 @@ ul a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 ul a:hover {
     background-color: #edddd0;
 }
